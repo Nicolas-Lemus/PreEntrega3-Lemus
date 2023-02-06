@@ -98,9 +98,9 @@ header{
 
     h2{
         background:$color-primario;
-        font-size:$font-size-sm + .4rem;
         margin:$medida-sm;
         color:$color-terciario;
+        font-size:$font-size-sm + .3rem;
     }
     img{
         width:$medida-sm;
@@ -134,9 +134,6 @@ header{
         display:grid;
         grid-template-columns: repeat(3,1fr);
     }
-    h2{
-        font-size:1.8rem;
-    }
     p{
         font-size: .8rem;
         color:$color-white;
@@ -144,6 +141,10 @@ header{
     }
 
     @media (min-width:$tablet){
+        
+        h2{
+            font-size: $font-size-sm + .7rem;
+        }
         .footer__nav ul{
             grid-template-columns: repeat(5,1fr);
         }   

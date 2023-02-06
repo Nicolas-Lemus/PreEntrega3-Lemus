@@ -108,9 +108,9 @@ header #navbarNav a:hover, header #navbarNav a a:focus {
 }
 #footer h2 {
   background: rgb(184, 165, 55);
-  font-size: 1.4rem;
   margin: 30px;
   color: rgb(0, 0, 0);
+  font-size: 1.3rem;
 }
 #footer img {
   width: 30px;
@@ -141,15 +141,15 @@ header #navbarNav a:hover, header #navbarNav a a:focus {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-#footer h2 {
-  font-size: 1.8rem;
-}
 #footer p {
   font-size: 0.8rem;
   color: rgb(255, 255, 255);
   margin: 4px;
 }
 @media (min-width: 576px) {
+  #footer h2 {
+    font-size: 1.7rem;
+  }
   #footer .footer__nav ul {
     grid-template-columns: repeat(5, 1fr);
   }
