@@ -110,13 +110,6 @@ header{
             scale: 1.1;
         }
     }
-    p{
-        font-size:$font-size-sm;
-    }
-    ul{
-        padding:$min;
-        
-    }
     li{
         margin:$font-size-ep;
     }
@@ -152,13 +145,13 @@ header{
 
     @media (min-width:$desktop){
 
-        margin-top: 120px;
+        margin-top:$medida-xl;
 
         h2{
             font-size: 2.2rem;
         }
         img{
-                width: 50px;
+                width:$medida-md;
             }
         a{
             font-size: 2rem;

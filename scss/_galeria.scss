@@ -27,7 +27,7 @@
         }
     
         @media (min-width:$tablet){
-            font-size: 5rem;
+            font-size:$font-size-lg;
             h2{
                 font-size: 2rem;
             }
@@ -44,7 +44,7 @@
             font-size:$font-size-md;
         }
             p{
-                @include mar-pad(30px ,20px);
+                @include mar-pad($medida-sm ,20px);
                 font-size:2rem;
             }
         }
@@ -73,11 +73,11 @@
     @media (min-width:$tablet){
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 10px;
+        gap:$medida-ep;
 
         img{
-            width:500px;
-            max-width: 100%;
+            width:$font-size-lg * 10;
+            max-width:$max;
             max-height: 350px;
         }
     }

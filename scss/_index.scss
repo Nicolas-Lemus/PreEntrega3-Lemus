@@ -79,7 +79,7 @@
     @media (min-width:$desktop){
         padding-top: 100px;
             h1{
-                font-size: 8rem;
+                font-size:$font-size-xl;
             }
             h2{
             font-size:$font-size-md;
@@ -170,9 +170,9 @@
     @media (min-width:$desktop) {
         grid-template-columns:repeat(3,1fr);
         padding-top: 100px;
-        gap: 10px;
+        gap:$medida-ep;
     }
     @media (min-width:$desktopXG){
-        gap: 30px;
+        gap:$medida-sm;
     }
 }
